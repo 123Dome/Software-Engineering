@@ -7,21 +7,21 @@ import org.junit.jupiter.api.Test;
 public class GermanTranslatorTest {
 
     @Test
-    public void testValidNumber(){
+    public void testValidNumbers(){
         GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
 
         assertEquals("fünf", germanTranslator.translateNumber(5));
     }
 
     @Test
-    public void testLessThanValidNumber(){
+    public void testLessThanValidNumbers(){
         GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
 
         assertNotEquals("null", germanTranslator.translateNumber(0));
     }
 
     @Test
-    public void testMoreThanValidNumber(){
+    public void testMoreThanValidNumbers(){
         GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
 
         assertNotEquals("fünfzehn", germanTranslator.translateNumber(15));

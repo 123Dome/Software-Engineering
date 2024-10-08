@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/TranslatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Alles fertig gecoded und Tests geschrieben">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codesSE2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codesSE2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/control/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung1/view/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung1/GermanTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung1/GermanTranslatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
+    "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
+    "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -78,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GermanTranslatorTest.testMoreThanValidNumber">
+  <component name="RunManager">
     <configuration name="GermanTranslatorTest.testLessThanValidNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
@@ -153,8 +150,17 @@
       <updated>1727176957166</updated>
       <workItem from="1727176958305" duration="1892000" />
       <workItem from="1728411269337" duration="76000" />
-      <workItem from="1728411351855" duration="296000" />
+      <workItem from="1728411351855" duration="1888000" />
     </task>
+    <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
+      <option name="closed" value="true" />
+      <created>1728411895072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728411895072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,5 +176,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alles fertig gecoded und Tests geschrieben" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alles fertig gecoded und Tests geschrieben" />
   </component>
 </project>
