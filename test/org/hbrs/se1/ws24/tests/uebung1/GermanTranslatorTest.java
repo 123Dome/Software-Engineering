@@ -1,15 +1,29 @@
 package org.hbrs.se1.ws24.tests.uebung1;
 import static org.junit.jupiter.api.Assertions.*;
 import org.hbrs.se1.ws24.exercises.uebung1.control.GermanTranslator;
+import org.hbrs.se1.ws24.exercises.uebung1.control.TranslatorFactory;
 import org.junit.jupiter.api.Test;
 
 public class GermanTranslatorTest {
 
     @Test
-    public void aTest() {
-        GermanTranslator translator = new GermanTranslator();
+    public void testValidNumber(){
+        GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
 
-        assertEquals("null" , translator.translateNumber(0));
+        assertEquals("fünf", germanTranslator.translateNumber(5));
     }
 
+    @Test
+    public void testLessThanValidNumber(){
+        GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
+
+        assertNotEquals("null", germanTranslator.translateNumber(0));
+    }
+
+    @Test
+    public void testMoreThanValidNumber(){
+        GermanTranslator germanTranslator = TranslatorFactory.createGermanTranslator();
+
+        assertNotEquals("fünfzehn", germanTranslator.translateNumber(15));
+    }
 }
