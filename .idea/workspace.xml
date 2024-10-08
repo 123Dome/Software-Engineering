@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Alles fertig gecoded und Tests geschrieben">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Alles fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/saschaalda/IdeaProjects/codesSE2024/src/org/hbrs/se1/ws24/exercises",
+    "last_opened_file_path": "C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/uebung1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,8 +70,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung1" />
       <recent name="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\test\org\hbrs\se1\ws24\tests\uebung1" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +153,7 @@
       <updated>1727176957166</updated>
       <workItem from="1727176958305" duration="1892000" />
       <workItem from="1728411269337" duration="76000" />
-      <workItem from="1728411351855" duration="1888000" />
+      <workItem from="1728411351855" duration="2642000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -160,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728411895072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Alles fertig">
+      <option name="closed" value="true" />
+      <created>1728417255796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728417255796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alles fertig gecoded und Tests geschrieben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alles fertig gecoded und Tests geschrieben" />
+    <MESSAGE value="Alles fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alles fertig" />
   </component>
 </project>
