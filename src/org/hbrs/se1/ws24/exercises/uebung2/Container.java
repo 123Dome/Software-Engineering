@@ -14,11 +14,18 @@ public class Container {
         }
     }
 
-    //TODO Checken ob ein Member mit dieser ID in der Liste existiert
     public String deleteMember(Integer id) {
-        if(memberList.contains(member)) return memberList.remove(memberList.indexOf(id)).toString();
-        else if(memberList.isEmpty()) return "Error! There are no Members";
-        else return "Error! No Member has this ID";
+        for (Member member : memberList) {
+            if (member.getID().equals(id)) {
+                memberList.remove(member); // Member entfernen
+                return "Member with ID " + id + " has been removed: " + member.toString();
+            }
+        }
+        if (memberList.isEmpty()) {
+            return "Error! There are no Members";
+        } else {
+            return "Error! No Member has this ID";
+        }
     }
 
     public int size() {
