@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Tests fertig geschrieben und Klassen nochmal schöner gemacht">
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung2/ContainerTest.xlsx" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="ReadMe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +207,7 @@
       <workItem from="1728411351855" duration="4428000" />
       <workItem from="1728459491012" duration="866000" />
       <workItem from="1728466165952" duration="2687000" />
-      <workItem from="1728986338067" duration="4863000" />
+      <workItem from="1728986338067" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -282,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728989642509</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Excel Datei für den Container Test">
+      <option name="closed" value="true" />
+      <created>1728991581022</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728991581022</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ReadMe">
+      <option name="closed" value="true" />
+      <created>1728991665195</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728991665195</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +321,8 @@
     <MESSAGE value="deleteMember angepasst" />
     <MESSAGE value="BeforeEach und AfterEach für Test festgelegt und letzte Fehler in den Klassen bereinigt" />
     <MESSAGE value="Tests fertig geschrieben und Klassen nochmal schöner gemacht" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests fertig geschrieben und Klassen nochmal schöner gemacht" />
+    <MESSAGE value="Excel Datei für den Container Test" />
+    <MESSAGE value="ReadMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe" />
   </component>
 </project>
