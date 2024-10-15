@@ -1,7 +1,6 @@
 package org.hbrs.se1.ws24.exercises.uebung2;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Container {
     ArrayList<Member> memberList = new ArrayList<>();
@@ -16,15 +15,15 @@ public class Container {
 
     public String deleteMember(Integer id) {
         if (memberList.isEmpty()) {
-            return "Fehler! Es existieren noch keine Member";
+            return "Fehler! Es existieren noch keine Member!";
         }
         for (Member member : memberList) {
             if (member.getID().equals(id)) {
                 memberList.remove(member);
-                return "Member mit der ID " + id + " wurde entfernt: " + member.toString();
+                return "Member mit der ID " + id + " wurde entfernt!";
             }
         }
-        return "Fehler! Kein Member hat diese ID";
+        return "Fehler! Kein Member hat diese ID!";
     }
 
     public int size() {
@@ -32,6 +31,6 @@ public class Container {
     }
 
     public void dump(){
-        System.out.println(memberList);
+        memberList.forEach(System.out::println);
     }
 }
