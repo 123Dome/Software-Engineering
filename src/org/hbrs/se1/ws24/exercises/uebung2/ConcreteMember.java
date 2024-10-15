@@ -1,7 +1,7 @@
 package org.hbrs.se1.ws24.exercises.uebung2;
 
 public class ConcreteMember implements Member{
-    Integer id;
+    private Integer id;
 
     public ConcreteMember(Integer id) {
         this.id = id;
@@ -9,10 +9,10 @@ public class ConcreteMember implements Member{
 
     @Override
     public Integer getID() {
-        return id;
+        return this.id;
     }
     @Override
     public String toString() {
-        return "Member (ID = " + id + ")";
+        return "Member (ID = " + this.id + ")";
     }
 }

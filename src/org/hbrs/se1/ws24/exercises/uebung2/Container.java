@@ -4,28 +4,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Container {
-    List<Member> memberList = new ArrayList<>();
+    ArrayList<Member> memberList = new ArrayList<>();
 
     public void addMember(Member member) throws ContainerException {
         if(memberList.contains(member)){
-            throw new ContainerException();
+            throw new ContainerException("Das Member-Objekt mit der ID " + member.getID() + " ist bereits vorhanden!");
         }else {
             memberList.add(member);
         }
     }
 
     public String deleteMember(Integer id) {
+        if (memberList.isEmpty()) {
+            return "Fehler! Es existieren noch keine Member";
+        }
         for (Member member : memberList) {
             if (member.getID().equals(id)) {
-                memberList.remove(member); // Member entfernen
-                return "Member with ID " + id + " has been removed: " + member.toString();
+                memberList.remove(member);
+                return "Member mit der ID " + id + " wurde entfernt: " + member.toString();
             }
         }
-        if (memberList.isEmpty()) {
-            return "Error! There are no Members";
-        } else {
-            return "Error! No Member has this ID";
-        }
+        return "Fehler! Kein Member hat diese ID";
     }
 
     public int size() {
@@ -33,6 +32,6 @@ public class Container {
     }
 
     public void dump(){
-        System.out.println(memberList.toString());
+        System.out.println(memberList);
     }
 }
