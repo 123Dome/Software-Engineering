@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="ReadMe">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Aktivitätendiagramm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,35 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ContainerTest.executor": "Run",
-    "JUnit.ContainerTest.testDeleteMember.executor": "Run",
-    "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dome/IdeaProjects/SoftwareEngineering/test/org/hbrs/se1/ws24/tests/uebung2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testDeleteMember.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testLessThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dome/IdeaProjects/SoftwareEngineering/test/org/hbrs/se1/ws24/tests/uebung2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContainerTest" />
-        <item itemvalue="JUnit.ContainerTest.testDeleteMember" />
+        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
         <item itemvalue="JUnit.GermanTranslatorTest.testMoreThanValidNumber" />
         <item itemvalue="JUnit.GermanTranslatorTest.testLessThanValidNumber" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
+        <item itemvalue="JUnit.ContainerTest.testDeleteMember" />
+        <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <workItem from="1728411351855" duration="4428000" />
       <workItem from="1728459491012" duration="866000" />
       <workItem from="1728466165952" duration="2687000" />
-      <workItem from="1728986338067" duration="6413000" />
+      <workItem from="1728986338067" duration="7036000" />
+      <workItem from="1729106992437" duration="89000" />
+      <workItem from="1729107086895" duration="197000" />
+      <workItem from="1729107289839" duration="299000" />
+      <workItem from="1729107597571" duration="57000" />
+      <workItem from="1729107665475" duration="560000" />
+      <workItem from="1729108238389" duration="102000" />
+      <workItem from="1729347057766" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -297,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728991665195</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Aktivitätendiagramm">
+      <option name="closed" value="true" />
+      <created>1728996187682</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728996187682</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +339,11 @@
     <MESSAGE value="Tests fertig geschrieben und Klassen nochmal schöner gemacht" />
     <MESSAGE value="Excel Datei für den Container Test" />
     <MESSAGE value="ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe" />
+    <MESSAGE value="Aktivitätendiagramm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aktivitätendiagramm" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
