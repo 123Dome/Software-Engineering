@@ -4,6 +4,16 @@ import java.util.ArrayList;
 
 public class Container {
     private ArrayList<Member> memberList = new ArrayList<>();
+    private static Container instance;
+
+    // Privater Konstruktor, um die direkte Instanziierung von außen zu verhindern
+    private Container(){}
+
+    // Statische Methode zur Erzeugung oder Rückgabe der einzigen Instanz
+    public static Container getInstance(){
+        if(instance == null) instance = new Container();
+        return instance;
+    }
 
     public void addMember(Member member) throws ContainerException {
         if(memberList.contains(member)){
