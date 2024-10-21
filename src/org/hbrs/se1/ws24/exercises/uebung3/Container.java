@@ -56,7 +56,7 @@ public class Container {
         if(memberPersistenceStrategy == null) throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine Strategie wurde festgelegt!");
         try{
             memberPersistenceStrategy.save(memberList);
-        } catch (Exception e) {
+        } catch (UnsupportedOperationException e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable, "Strategie wurde noch nicht (richtig) implementiert!");
         }
     }
