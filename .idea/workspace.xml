@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="MemberView Klasse mit dump Methode zur Ausgabe der Liste">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Client.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Client zum Testen der Ausgabe">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung3/ContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,9 +60,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.ContainerTest.executor": "Run",
     "JUnit.ContainerTest.testDeleteMember.executor": "Run",
+    "JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented.executor": "Run",
+    "JUnit.ContainerTest.testPersistenceStrategyIsNull.executor": "Run",
+    "JUnit.ContainerTest.testRoundTrip.executor": "Run",
     "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
     "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
     "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
@@ -81,7 +88,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,68 +110,69 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws24.tests.uebung3" />
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest">
+  <component name="RunManager" selected="JUnit.ContainerTest.testRoundTrip">
     <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.ContainerTest" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.ContainerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.testDeleteMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.testPersistenceStrategyIsNotImplemented" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung2.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung2.ContainerTest" />
-      <option name="METHOD_NAME" value="testDeleteMember" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.ContainerTest" />
+      <option name="METHOD_NAME" value="testPersistenceStrategyIsNotImplemented" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testLessThanValidNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.testPersistenceStrategyIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung1.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung1" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung1.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testLessThanValidNumber" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.ContainerTest" />
+      <option name="METHOD_NAME" value="testPersistenceStrategyIsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testMoreThanValidNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.testRoundTrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung1.*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws24.tests.uebung3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung1" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung1.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testMoreThanValidNumber" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws24.tests.uebung3" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws24.tests.uebung3.ContainerTest" />
+      <option name="METHOD_NAME" value="testRoundTrip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testMoreThanValidNumber" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testLessThanValidNumber" />
-        <item itemvalue="JUnit.ContainerTest.testDeleteMember" />
+        <item itemvalue="JUnit.ContainerTest.testRoundTrip" />
         <item itemvalue="JUnit.ContainerTest" />
+        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented" />
+        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNull" />
+        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +233,10 @@
       <workItem from="1729107665475" duration="560000" />
       <workItem from="1729108238389" duration="102000" />
       <workItem from="1729347057766" duration="1350000" />
-      <workItem from="1729513112672" duration="4634000" />
+      <workItem from="1729513112672" duration="5833000" />
+      <workItem from="1729533346315" duration="32000" />
+      <workItem from="1729533384107" duration="475000" />
+      <workItem from="1729533871799" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -411,7 +422,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729518135663</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="MemberView Klasse mit dump Methode zur Ausgabe der Liste">
+      <option name="closed" value="true" />
+      <created>1729518666170</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729518666170</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Client zum Testen der Ausgabe">
+      <option name="closed" value="true" />
+      <created>1729518699252</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729518699252</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +474,8 @@
     <MESSAGE value="Methode load in Container Klasse fertiggestellt" />
     <MESSAGE value="ReadMe" />
     <MESSAGE value="MemberView Klasse mit dump Methode zur Ausgabe der Liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="MemberView Klasse mit dump Methode zur Ausgabe der Liste" />
+    <MESSAGE value="Client zum Testen der Ausgabe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client zum Testen der Ausgabe" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
