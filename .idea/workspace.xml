@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Commit Message">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/MemberView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/MemberView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung3/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws24/tests/uebung3/ContainerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Methoden und Klassen ordentlich kommentiert" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1e2252af447ae3e6d89828903b58f986e4e1d2eb" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -197,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContainerTest.testRoundTrip" />
-        <item itemvalue="JUnit.ContainerTest" />
-        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented" />
-        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNull" />
         <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
+        <item itemvalue="JUnit.ContainerTest.testRoundTrip" />
+        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNull" />
+        <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented" />
+        <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +234,7 @@
       <workItem from="1729513112672" duration="5833000" />
       <workItem from="1729533346315" duration="32000" />
       <workItem from="1729533384107" duration="475000" />
-      <workItem from="1729533871799" duration="5003000" />
+      <workItem from="1729533871799" duration="5557000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -487,7 +484,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729537070035</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Methoden und Klassen ordentlich kommentiert">
+      <option name="closed" value="true" />
+      <created>1729543371472</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729543371472</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Methoden und Klassen ordentlich kommentiert">
+      <option name="closed" value="true" />
+      <created>1729543423222</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729543423222</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Alles fertig gecoded und Tests geschrieben" />
     <MESSAGE value="Alles fertig" />
     <MESSAGE value="Klassen mit benötigten Methoden fertig. Nu9rnoch deleteMember muss gemacht werden" />
     <MESSAGE value="deleteMember angepasst" />
@@ -530,7 +542,8 @@
     <MESSAGE value="Main Methode zur Ausgabe der Member Liste" />
     <MESSAGE value="Commit Message" />
     <MESSAGE value="Testklasse für Container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testklasse für Container" />
+    <MESSAGE value="Methoden und Klassen ordentlich kommentiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Methoden und Klassen ordentlich kommentiert" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
