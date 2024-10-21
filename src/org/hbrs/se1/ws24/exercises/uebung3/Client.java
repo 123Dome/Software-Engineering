@@ -6,7 +6,7 @@ public class Client {
     private List<Member> memberList;
 
     public Client(Container container) throws ContainerException {
-        for(int i = 1; i <= 2; i++) container.addMember(new ConcreteMember(i));
+        for(int i = 1; i <= 3; i++) container.addMember(new ConcreteMember(i));
         this.memberList = container.getCurrentList();
         MemberView.dumb(this.memberList);
     }
