@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Dateien in Übung 3 geladen">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Es kann nur eine Container Instanz erstellt werden">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,41 +49,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ContainerTest.executor": "Run",
-    "JUnit.ContainerTest.testDeleteMember.executor": "Run",
-    "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/uebung3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testDeleteMember.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testLessThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/uebung3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung3" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\test\org\hbrs\se1\ws24\tests\uebung2" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung1" />
       <recent name="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises" />
@@ -215,7 +218,8 @@
       <workItem from="1729107597571" duration="57000" />
       <workItem from="1729107665475" duration="560000" />
       <workItem from="1729108238389" duration="102000" />
-      <workItem from="1729347057766" duration="700000" />
+      <workItem from="1729347057766" duration="1350000" />
+      <workItem from="1729513112672" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -321,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729347725706</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Es kann nur eine Container Instanz erstellt werden">
+      <option name="closed" value="true" />
+      <created>1729347915340</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729347915340</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +361,8 @@
     <MESSAGE value="ReadMe" />
     <MESSAGE value="Aktivitätendiagramm" />
     <MESSAGE value="Dateien in Übung 3 geladen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dateien in Übung 3 geladen" />
+    <MESSAGE value="Es kann nur eine Container Instanz erstellt werden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Es kann nur eine Container Instanz erstellt werden" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
