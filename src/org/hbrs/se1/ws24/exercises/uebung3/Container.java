@@ -4,9 +4,10 @@ import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategy;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Container {
-    private ArrayList<Member> memberList = new ArrayList<>();
+    private List<Member> memberList = new ArrayList<>();
     private static Container instance;
     private PersistenceStrategy<Member> memberPersistenceStrategy;
 
@@ -56,6 +57,15 @@ public class Container {
         if(memberPersistenceStrategy == null) throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine Strategie wurde festgelegt!");
         try{
             memberPersistenceStrategy.save(memberList);
+        } catch (UnsupportedOperationException e) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable, "Strategie wurde noch nicht (richtig) implementiert!");
+        }
+    }
+
+    public void load() throws PersistenceException {
+        if(memberPersistenceStrategy == null) throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine Strategie wurde festgelegt!");
+        try{
+            memberList = memberPersistenceStrategy.load();
         } catch (UnsupportedOperationException e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable, "Strategie wurde noch nicht (richtig) implementiert!");
         }

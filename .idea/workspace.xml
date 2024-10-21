@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Container Klasse kann mit Methode Store jetzt persistent Speichern">
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Methode load in PersistenceStrategyStream fertiggestellt">
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,9 @@
     &quot;accountId&quot;: &quot;a2aeecea-5fe8-4c84-aa60-6be289e4bd42&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -217,7 +220,7 @@
       <workItem from="1729107665475" duration="560000" />
       <workItem from="1729108238389" duration="102000" />
       <workItem from="1729347057766" duration="1350000" />
-      <workItem from="1729513112672" duration="2131000" />
+      <workItem from="1729513112672" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -363,7 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729514941437</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Weiterer Exception Type hinzugefügt, falls ein Objekt falsch ausgelesen wird">
+      <option name="closed" value="true" />
+      <created>1729515670887</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729515670887</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Methode load in PersistenceStrategyStream fertiggestellt">
+      <option name="closed" value="true" />
+      <created>1729515759937</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729515759937</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +414,9 @@
     <MESSAGE value="Store Methode für PersistenceStrategyStream fertiggestellt" />
     <MESSAGE value="Workspace" />
     <MESSAGE value="Container Klasse kann mit Methode Store jetzt persistent Speichern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Container Klasse kann mit Methode Store jetzt persistent Speichern" />
+    <MESSAGE value="Weiterer Exception Type hinzugefügt, falls ein Objekt falsch ausgelesen wird" />
+    <MESSAGE value="Methode load in PersistenceStrategyStream fertiggestellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Methode load in PersistenceStrategyStream fertiggestellt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
