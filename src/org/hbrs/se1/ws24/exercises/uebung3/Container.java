@@ -3,10 +3,11 @@ package org.hbrs.se1.ws24.exercises.uebung3;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategy;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Container {
+public class Container implements Serializable {
     private List<Member> memberList = new ArrayList<>();
     private static Container instance;
     private PersistenceStrategy<Member> memberPersistenceStrategy;
@@ -49,8 +50,8 @@ public class Container {
         return memberList.size();
     }
 
-    public void dump(){
-        memberList.forEach(System.out::println);
+    public List<Member> getCurrentList() {
+        return memberList;
     }
 
     public void store() throws PersistenceException {
