@@ -1,5 +1,8 @@
 package org.hbrs.se1.ws24.exercises.uebung3.persistence;
+import org.hbrs.se1.ws24.exercises.uebung2.Member;
+
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
@@ -28,7 +31,7 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
         {
             oos.writeObject(member);
         }
-         catch (IOException e) {
+         catch (Exception e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Objekt konnte nicht zu folgender Datei hinzugefügt werden: " + location);
         }
 
@@ -41,6 +44,18 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
      * Take also a look at the import statements above ;-!
      */
     public List<E> load() throws PersistenceException  {
+        List<E> objectList = new ArrayList<>();
+        try(
+                FileInputStream fis = new FileInputStream(location);
+                ObjectInputStream ois = new ObjectInputStream(fis)
+            )
+        {
+            Object object = ois.readObject();
+            if(object instanceof List<?>) objectList = (List<E>) object;
+            else throw new PersistenceException(PersistenceException.ExceptionType.ReadError, "Objekt konnte nicht richtig ausgelesen werden aus folgender Datei: " + location + "!");
+        } catch (Exception e) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Objekte konnten nicht aus folgender Datei ausgelesen werden: " + location + "!");
+        }
         // Some Coding hints ;-)
 
         // ObjectInputStream ois = null;
@@ -61,6 +76,6 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
         // return newListe
 
         // and finally close the streams
-        return null;
+        return objectList;
     }
 }
