@@ -1,10 +1,14 @@
 package org.hbrs.se1.ws24.exercises.uebung3;
 
+import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
+import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategy;
+
 import java.util.ArrayList;
 
 public class Container {
     private ArrayList<Member> memberList = new ArrayList<>();
     private static Container instance;
+    private PersistenceStrategy<Member> memberPersistenceStrategy;
 
     // Privater Konstruktor, um die direkte Instanziierung von außen zu verhindern
     private Container(){}
@@ -13,6 +17,10 @@ public class Container {
     public static Container getInstance(){
         if(instance == null) instance = new Container();
         return instance;
+    }
+
+    public void setMemberPersistenceStrategy(PersistenceStrategy<Member> persistenceStrategy){
+        memberPersistenceStrategy = persistenceStrategy;
     }
 
     public void addMember(Member member) throws ContainerException {
@@ -42,5 +50,14 @@ public class Container {
 
     public void dump(){
         memberList.forEach(System.out::println);
+    }
+
+    public void store() throws PersistenceException {
+        if(memberPersistenceStrategy == null) throw new PersistenceException(PersistenceException.ExceptionType.NoStrategyIsSet, "Keine Strategie wurde festgelegt!");
+        try{
+            memberPersistenceStrategy.save(memberList);
+        } catch (Exception e) {
+            throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable, "Strategie wurde noch nicht (richtig) implementiert!");
+        }
     }
 }
