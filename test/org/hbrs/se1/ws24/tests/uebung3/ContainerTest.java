@@ -2,7 +2,6 @@ package org.hbrs.se1.ws24.tests.uebung3;
 
 import org.hbrs.se1.ws24.exercises.uebung3.ConcreteMember;
 import org.hbrs.se1.ws24.exercises.uebung3.Container;
-import org.hbrs.se1.ws24.exercises.uebung3.ContainerException;
 import org.hbrs.se1.ws24.exercises.uebung3.Member;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategyMongoDB;
@@ -19,7 +18,7 @@ class ContainerTest {
     private Member member;
 
     @BeforeEach
-    void setUp() throws ContainerException {
+    void setUp() {
         container = Container.forTestPurposeOnly();
         member = new ConcreteMember(1);
     }
@@ -77,21 +76,21 @@ class ContainerTest {
     }
 
     @Test
-    void testRoundTrip() throws ContainerException {
+    void testRoundTrip() {
         PersistenceStrategyStream<Member> persistenceStrategy = new PersistenceStrategyStream<>();
         container.setMemberPersistenceStrategy(persistenceStrategy);
 
         assertEquals(0, container.size(), "Falsche Container Größe!");
 
-        assertDoesNotThrow(() -> container.addMember(member));
+        assertDoesNotThrow(() -> container.addMember(member), "Member konnte nicht hinzugefügt werden!");
         assertEquals(1, container.size(), "Falsche Container Größe!");
 
-        assertDoesNotThrow(() -> container.store());
-        assertEquals("Member mit der ID 1 wurde entfernt!", container.deleteMember(1));
+        assertDoesNotThrow(() -> container.store(), "Die Member Liste konnte nicht gespeichert werden!");
+        assertEquals("Member mit der ID 1 wurde entfernt!", container.deleteMember(1), "Member konnte nicht entfernt werden!");
 
-        assertEquals(0, container.size());
+        assertEquals(0, container.size(), "Falsche Container Größe!");
 
-        assertDoesNotThrow(() -> container.load());
-        assertEquals(1, container.size());
+        assertDoesNotThrow(() -> container.load(), "Member Liste konnte nicht geladen werden!");
+        assertEquals(1, container.size(), "Falsche Container Größe!");
     }
 }

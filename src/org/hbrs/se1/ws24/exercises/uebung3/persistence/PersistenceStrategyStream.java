@@ -5,24 +5,36 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Die Klasse PersistenceStrategyStream implementiert die Persistenzstrategie, um Objekte vom Typ Member
+ * auf eine Datei zu speichern und aus einer Datei zu laden.
+ * Diese Klasse nutzt Java-Streams, um Objekte zu serialisieren und zu deserialisieren.
+ *
+ * @param <E> Der Typ der Objekte, die gespeichert und geladen werden.
+ */
 public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
 
-    // URL of file, in which the objects are stored
+    // Pfad zur Datei, in der die Objekte gespeichert werden
     private String location = "objects.ser";
 
-    // Backdoor method used only for testing purposes, if the location should be changed in a Unit-Test
-    // Example: Location is a directory (Streams do not like directories, so try this out ;-)!
+    /**
+     * Methode, um den Speicherort der Datei zu setzen. Diese Methode wird hauptsächlich für Unit-Tests verwendet.
+     *
+     * @param location der Pfad zur Datei oder zum Verzeichnis, in dem die Objekte gespeichert werden sollen.
+     */
     public void setLocation(String location) {
         this.location = location;
     }
 
-    @Override
     /**
-     * Method for saving a list of Member-objects to a disk (HDD)
-     * Look-up in Google for further help! Good source:
-     * https://www.digitalocean.com/community/tutorials/objectoutputstream-java-write-object-file
-     * (Last Access: Oct, 15th 2024)
+     * Speichert eine Liste von Objekten auf die Festplatte.
+     * Die Objekte werden in der Datei gespeichert, die durch den Speicherort (location) angegeben wird.
+     * Es wird ein ObjectOutputStream verwendet, um die Liste der Objekte zu serialisieren.
+     *
+     * @param member die Liste der Objekte, die gespeichert werden sollen.
+     * @throws PersistenceException wenn ein Fehler beim Speichern auftritt, z.B. wenn die Datei nicht verfügbar ist.
      */
+    @Override
     public void save(List<E> member) throws PersistenceException  {
         try (
             FileOutputStream fos = new FileOutputStream(location);
@@ -37,12 +49,14 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
 
     }
 
-    @Override
     /**
-     * Method for loading a list of Member-objects from a disk (HDD)
-     * Some coding examples come for free :-)
-     * Take also a look at the import statements above ;-!
+     * Lädt eine Liste von Objekten von der Festplatte.
+     * Es wird ein ObjectInputStream verwendet, um die Liste der Objekte aus der Datei zu deserialisieren.
+     *
+     * @return die Liste der geladenen Objekte.
+     * @throws PersistenceException wenn ein Fehler beim Laden der Datei auftritt, z.B. wenn die Datei nicht verfügbar ist oder ein Leseproblem auftritt.
      */
+    @Override
     public List<E> load() throws PersistenceException  {
         List<E> objectList = new ArrayList<>();
         try(
@@ -56,26 +70,6 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
         } catch (Exception e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Objekte konnten nicht aus folgender Datei ausgelesen werden: " + location + "!");
         }
-        // Some Coding hints ;-)
-
-        // ObjectInputStream ois = null;
-        // FileInputStream fis = null;
-        // List<...> newListe =  null;
-        //
-        // Initiating the Stream (can also be moved to method openConnection()... ;-)
-        // fis = new FileInputStream( " a location to a file" );
-
-        // Tipp: Use a directory (ends with "/") to implement a negative test case ;-)
-        // ois = new ObjectInputStream(fis);
-
-        // Reading and extracting the list (try .. catch ommitted here)
-        // Object obj = ois.readObject();
-
-        // if (obj instanceof List<?>) {
-        //       newListe = (List) obj;
-        // return newListe
-
-        // and finally close the streams
         return objectList;
     }
 }
