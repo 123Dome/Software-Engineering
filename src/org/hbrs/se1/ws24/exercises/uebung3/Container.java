@@ -21,6 +21,10 @@ public class Container implements Serializable {
         return instance;
     }
 
+    public static Container forTestPurposeOnly(){
+        return new Container();
+    }
+
     public void setMemberPersistenceStrategy(PersistenceStrategy<Member> persistenceStrategy){
         memberPersistenceStrategy = persistenceStrategy;
     }
