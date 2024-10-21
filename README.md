@@ -1,1 +1,1 @@
-### Lösungen sind unter src und der jeweiligen Übung zu finden oder unter test und der jeweiligen Übung.
+### Lösungen sind unter src/test und dann der jeweiligen Übung zu finden
