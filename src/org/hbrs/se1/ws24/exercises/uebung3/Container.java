@@ -30,8 +30,14 @@ public class Container implements Serializable {
      *
      * @return die einzige Instanz der Container-Klasse.
      */
-    public static synchronized Container getInstance(){
-        if(instance == null) instance = new Container();
+    public static Container getInstance(){
+        if(instance == null){
+            synchronized (Container.class){
+                if(instance == null){
+                    instance = new Container();
+                }
+            }
+        }
         return instance;
     }
 
