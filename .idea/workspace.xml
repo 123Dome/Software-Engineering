@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 3 fertig">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)">
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +117,7 @@
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ContainerTest">
     <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2024" />
       <extension name="coverage">
@@ -200,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
+        <item itemvalue="JUnit.ContainerTest" />
         <item itemvalue="JUnit.ContainerTest.testRoundTrip" />
+        <item itemvalue="JUnit.GermanTranslatorTest.testValidNumber" />
         <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNull" />
         <item itemvalue="JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented" />
-        <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +241,7 @@
       <workItem from="1729533384107" duration="475000" />
       <workItem from="1729533871799" duration="5842000" />
       <workItem from="1729624343836" duration="247000" />
-      <workItem from="1729667118355" duration="2395000" />
+      <workItem from="1729667118355" duration="3481000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -564,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729624536235</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können">
+      <option name="closed" value="true" />
+      <created>1729669658232</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729669658232</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können">
+      <option name="closed" value="true" />
+      <created>1729670052064</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1729670052064</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,10 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleteMember angepasst" />
-    <MESSAGE value="BeforeEach und AfterEach für Test festgelegt und letzte Fehler in den Klassen bereinigt" />
-    <MESSAGE value="Tests fertig geschrieben und Klassen nochmal schöner gemacht" />
-    <MESSAGE value="Excel Datei für den Container Test" />
     <MESSAGE value="Aktivitätendiagramm" />
     <MESSAGE value="Dateien in Übung 3 geladen" />
     <MESSAGE value="Es kann nur eine Container Instanz erstellt werden" />
@@ -607,7 +618,11 @@
     <MESSAGE value="Methoden und Klassen ordentlich kommentiert" />
     <MESSAGE value="Umlet Datei" />
     <MESSAGE value="Übung 3 fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 3 fertig" />
+    <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
+    <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
+    <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
+    <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

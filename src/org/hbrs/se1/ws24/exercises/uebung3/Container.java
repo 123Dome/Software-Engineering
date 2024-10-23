@@ -3,7 +3,6 @@ package org.hbrs.se1.ws24.exercises.uebung3;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategy;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +12,7 @@ import java.util.List;
  * Sie unterstützt das Singleton-Pattern, um sicherzustellen, dass nur eine Instanz existiert.
  * Zusätzlich kann eine Persistenzstrategie definiert werden, um die Member-Objekte persistent zu speichern.
  */
-public class Container implements Serializable {
+public class Container {
     private List<Member> memberList = new ArrayList<>();
     private static Container instance;
     private PersistenceStrategy<Member> memberPersistenceStrategy;
