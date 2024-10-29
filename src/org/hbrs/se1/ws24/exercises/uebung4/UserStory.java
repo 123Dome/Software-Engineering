@@ -48,19 +48,4 @@ public class UserStory implements Serializable {
     public double getPriority() {
         return this.priority;
     }
-
-    @Override
-    public String toString() {
-        return "UserStory{" +
-                "id='" + this.ID + '\'' +
-                ", title='" + this.title + '\'' +
-                ", acceptanceCriteria='" + this.acceptanceCriteria + '\'' +
-                ", project='" + this.project + '\'' +
-                ", value=" + this.value +
-                ", penalty=" + this.penalty +
-                ", effort=" + this.effort +
-                ", risk=" + this.risk +
-                ", priority=" + this.priority +
-                '}';
-    }
 }
