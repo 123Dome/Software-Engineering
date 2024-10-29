@@ -31,17 +31,17 @@ public class PersistenceStrategyStream<E> implements PersistenceStrategy<E> {
      * Die Objekte werden in der Datei gespeichert, die durch den Speicherort (location) angegeben wird.
      * Es wird ein ObjectOutputStream verwendet, um die Liste der Objekte zu serialisieren.
      *
-     * @param member die Liste der Objekte, die gespeichert werden sollen.
+     * @param objectList die Liste der Objekte, die gespeichert werden sollen.
      * @throws PersistenceException wenn ein Fehler beim Speichern auftritt, z.B. wenn die Datei nicht verfügbar ist.
      */
     @Override
-    public void save(List<E> member) throws PersistenceException  {
+    public void save(List<E> objectList) throws PersistenceException  {
         try (
             FileOutputStream fos = new FileOutputStream(location);
             ObjectOutputStream oos = new ObjectOutputStream(fos)
             )
         {
-            oos.writeObject(member);
+            oos.writeObject(objectList);
         }
          catch (Exception e) {
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Objekt konnte nicht zu folgender Datei hinzugefügt werden: " + location);
