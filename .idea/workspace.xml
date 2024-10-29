@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="User Story View dumb methode static machen">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Client.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Client für Interaktion mit Benutzer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStoryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStoryView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,15 +256,7 @@
       <workItem from="1729714765717" duration="96000" />
       <workItem from="1729714870004" duration="70000" />
       <workItem from="1729715009572" duration="2302000" />
-      <workItem from="1730205419576" duration="7927000" />
-    </task>
-    <task id="LOCAL-00003" summary="Alles fertig">
-      <option name="closed" value="true" />
-      <created>1728418782355</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728418782355</updated>
+      <workItem from="1730205419576" duration="9617000" />
     </task>
     <task id="LOCAL-00004" summary="Alles fertig">
       <option name="closed" value="true" />
@@ -647,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730211528705</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Client für Interaktion mit Benutzer">
+      <option name="closed" value="true" />
+      <created>1730213797738</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1730213797738</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Methode load in Container Klasse fertiggestellt" />
     <MESSAGE value="ReadMe" />
     <MESSAGE value="MemberView Klasse mit dump Methode zur Ausgabe der Liste" />
     <MESSAGE value="Client zum Testen der Ausgabe" />
@@ -690,7 +692,8 @@
     <MESSAGE value="User Story Klasse mit toString" />
     <MESSAGE value="User Story Klasse mit toString" />
     <MESSAGE value="User Story View dumb methode static machen" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Story View dumb methode static machen" />
+    <MESSAGE value="Client für Interaktion mit Benutzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client für Interaktion mit Benutzer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
