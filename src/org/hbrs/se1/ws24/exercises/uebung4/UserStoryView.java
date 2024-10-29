@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class UserStoryView {
 
-    public void dump(List<UserStory> userStories) {
+    public static void dump(List<UserStory> userStories) {
         if (userStories.isEmpty()) {
             System.out.println("Keine User Story gefunden!");
         } else {
