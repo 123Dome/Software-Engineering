@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Änderung damit es allgemeiner ist">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Ausgabe auf Konsole für User Stories">
       <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_10_2024_16_11_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_10_2024_16_11__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +252,7 @@
       <workItem from="1729714765717" duration="96000" />
       <workItem from="1729714870004" duration="70000" />
       <workItem from="1729715009572" duration="2302000" />
-      <workItem from="1730205419576" duration="2436000" />
+      <workItem from="1730205419576" duration="4264000" />
     </task>
     <task id="LOCAL-00001" summary="Alles fertig gecoded und Tests geschrieben">
       <option name="closed" value="true" />
@@ -609,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730206696315</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Container Klasse generisch gemacht">
+      <option name="closed" value="true" />
+      <created>1730208080372</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1730208080372</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Ausgabe auf Konsole für User Stories">
+      <option name="closed" value="true" />
+      <created>1730209694312</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1730209694312</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Es kann nur eine Container Instanz erstellt werden" />
-    <MESSAGE value="Store Methode für PersistenceStrategyStream fertiggestellt" />
     <MESSAGE value="Workspace" />
     <MESSAGE value="Container Klasse kann mit Methode Store jetzt persistent Speichern" />
     <MESSAGE value="Weiterer Exception Type hinzugefügt, falls ein Objekt falsch ausgelesen wird" />
@@ -652,7 +663,9 @@
     <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
     <MESSAGE value="Container muss nicht Serializable sein" />
     <MESSAGE value="Änderung damit es allgemeiner ist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Änderung damit es allgemeiner ist" />
+    <MESSAGE value="Container Klasse generisch gemacht" />
+    <MESSAGE value="Ausgabe auf Konsole für User Stories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ausgabe auf Konsole für User Stories" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
