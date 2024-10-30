@@ -14,7 +14,7 @@ public class Client {
     private static final Container<UserStory> container = Container.getInstance();
     private static final PersistenceStrategyStream<UserStory> persistenceStrategy = new PersistenceStrategyStream<>();
     private static final Scanner scanner = new Scanner(System.in);
-    private static final String FILE_PATH = "src/org/hbrs/se1/ws24/exercises/uebung4/UserStory.ser";
+    private static final String FILE_PATH = "src/org/hbrs/se1/ws24/exercises/uebung4/UserStories.ser";
 
     public static void main(String[] args) {
         initializePersistence();
