@@ -2,6 +2,8 @@ package org.hbrs.se1.ws24.exercises.uebung4;
 
 import org.hbrs.se1.ws24.exercises.uebung3.ContainerException;
 import org.hbrs.se1.ws24.exercises.uebung3.persistence.PersistenceStrategyStream;
+import org.hbrs.se1.ws24.exercises.uebung4.userStory.UserStory;
+import org.hbrs.se1.ws24.exercises.uebung4.userStory.UserStoryView;
 
 import java.util.Scanner;
 
@@ -38,7 +40,7 @@ public class Client {
     private static void processUserCommands() {
         while (true) {
             System.out.print("> ");
-            String input = scanner.nextLine().trim();
+            String input = scanner.nextLine();
             try {
                 switch (input) {
                     case "enter" -> enterUserStory();

@@ -1,6 +1,6 @@
 package org.hbrs.se1.ws24.tests.uebung4;
 
-import org.hbrs.se1.ws24.exercises.uebung4.UserStory;
+import org.hbrs.se1.ws24.exercises.uebung4.userStory.UserStory;
 
 import org.junit.jupiter.api.Test;
 
