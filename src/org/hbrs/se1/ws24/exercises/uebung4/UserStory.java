@@ -20,9 +20,6 @@ public class UserStory implements Serializable {
     private Integer effort; // Aufwand
     private Integer risk; // Risiko
 
-    // Priorisierung nach Gloger
-    private double priority;
-
     /**
      * Konstruktor zur Initialisierung einer User Story mit allen Attributen.
      * Berechnet die Priorität basierend auf dem Mehrwert, der Strafe, dem Aufwand und dem Risiko.
@@ -45,7 +42,6 @@ public class UserStory implements Serializable {
         this.penalty = penalty;
         this.effort = effort;
         this.risk = risk;
-        this.priority = (double) (value + penalty) / (risk + effort);
     }
 
     /**
@@ -84,12 +80,13 @@ public class UserStory implements Serializable {
         return project;
     }
 
+
     /**
-     * Gibt die berechnete Priorität der User Story zurück.
+     * Gibt die berechnete Priorität nach Gloger der User Story zurück.
      *
      * @return die Priorität der User Story
      */
     public double getPriority() {
-        return this.priority;
+        return (double) (this.value + this.penalty) / (this.risk + this.effort);
     }
 }
