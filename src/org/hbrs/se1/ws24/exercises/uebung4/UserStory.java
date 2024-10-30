@@ -87,6 +87,6 @@ public class UserStory implements Serializable {
      * @return die Priorität der User Story
      */
     public double getPriority() {
-        return (double) (this.value + this.penalty) / (this.risk + this.effort);
+        return (double) (this.value + this.penalty) / (this.effort + this.risk);
     }
 }
