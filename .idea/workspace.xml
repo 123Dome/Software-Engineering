@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Alle Klassen und Methoden ordentlich kommentiert" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Alle Klassen und Methoden ordentlich kommentiert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/UserStory.ser" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,14 +254,7 @@
       <workItem from="1729714870004" duration="70000" />
       <workItem from="1729715009572" duration="2302000" />
       <workItem from="1730205419576" duration="9899000" />
-    </task>
-    <task id="LOCAL-00005" summary="Alles fertig">
-      <option name="closed" value="true" />
-      <created>1728420224832</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728420224832</updated>
+      <workItem from="1730317265138" duration="706000" />
     </task>
     <task id="LOCAL-00006" summary="Klassen mit benötigten Methoden fertig. Nu9rnoch deleteMember muss gemacht werden">
       <option name="closed" value="true" />
@@ -644,7 +640,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730215326894</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Alle Klassen und Methoden ordentlich kommentiert">
+      <option name="closed" value="true" />
+      <created>1730317598565</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1730317598566</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

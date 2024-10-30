@@ -85,11 +85,20 @@ public class UserStory implements Serializable {
     }
 
     /**
+     * Berechnet die Priorität dynamisch basierend auf den Attributen.
+     *
+     * @return die berechnete Priorität der User Story
+     */
+    public double calculatePriority() {
+        return (double) (value + penalty) / (risk + effort);
+    }
+
+    /**
      * Gibt die berechnete Priorität der User Story zurück.
      *
      * @return die Priorität der User Story
      */
     public double getPriority() {
-        return this.priority;
+        return this.calculatePriority();
     }
 }
