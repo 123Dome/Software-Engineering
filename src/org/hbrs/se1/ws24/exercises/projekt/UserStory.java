@@ -7,6 +7,8 @@ import java.io.Serializable;
  * Sie enthält Attribute für ID, Titel, Akzeptanzkriterium, Projekt, sowie mehrere Kennzahlen
  * (Mehrwert, Strafe, Aufwand, Risiko) zur Berechnung einer Priorität. Diese wird zur Sortierung
  * und Bewertung der User Stories verwendet.
+ *
+ * TODO Hashmap, Kommando Design Pattern, Einzelne Klassen für Kommandos?
  */
 public class UserStory implements Serializable {
     private Integer ID;
