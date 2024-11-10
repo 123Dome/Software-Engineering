@@ -57,7 +57,7 @@ public class Container <E extends UserStory>{
      */
     public void addItem(E item) throws ContainerException {
         if (contains(item)) {
-            throw new ContainerException("Item existiert bereits!");
+            throw new ContainerException("ID existiert bereits!");
         }
         itemList.add(item);
     }

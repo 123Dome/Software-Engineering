@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Weitere Filter für die dump Methode">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Contains Methode für Items im Container">
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -263,15 +263,7 @@
       <workItem from="1730205419576" duration="9899000" />
       <workItem from="1730407647989" duration="1899000" />
       <workItem from="1730880376824" duration="4970000" />
-      <workItem from="1731270707303" duration="4937000" />
-    </task>
-    <task id="LOCAL-00012" summary="Aktivitätendiagramm">
-      <option name="closed" value="true" />
-      <created>1728996187682</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1728996187682</updated>
+      <workItem from="1731270707303" duration="5043000" />
     </task>
     <task id="LOCAL-00013" summary="Dateien in Übung 3 geladen">
       <option name="closed" value="true" />
@@ -657,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731275388629</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Contains Methode für Items im Container">
+      <option name="closed" value="true" />
+      <created>1731275715917</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1731275715917</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Methoden und Klassen ordentlich kommentiert" />
     <MESSAGE value="Umlet Datei" />
     <MESSAGE value="Übung 3 fertig" />
     <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
@@ -700,7 +699,8 @@
     <MESSAGE value="TODO" />
     <MESSAGE value="Überladen der dump Methode" />
     <MESSAGE value="Weitere Filter für die dump Methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weitere Filter für die dump Methode" />
+    <MESSAGE value="Contains Methode für Items im Container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contains Methode für Items im Container" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
