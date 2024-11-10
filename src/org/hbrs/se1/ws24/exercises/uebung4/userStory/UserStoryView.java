@@ -5,24 +5,28 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Die Klasse UserStoryView bietet eine Methode zur konsolenbasierten
- * Ausgabe einer Liste von User Stories. Die Ausgabe ist nach Priorität
- * absteigend sortiert und enthält die wichtigsten Eigenschaften jeder
- * User Story, wie ID, Titel, Akzeptanzkriterium, Projekt und Priorität.
+ * Die Klasse UserStoryView bietet Methoden zur Ausgabe von User Stories.
+ * Sie kann alle User Stories ausgeben oder nur diejenigen, die einem bestimmten Kriterium entsprechen.
  */
 public class UserStoryView {
 
     /**
-     * Gibt eine Liste von User Stories formatiert in der Konsole aus.
-     * Die User Stories werden dabei absteigend nach ihrer Priorität sortiert.
-     * Die Ausgabe enthält die ID, den Titel, das Akzeptanzkriterium, das Projekt und die berechnete Priorität jeder User Story.
+     * Gibt alle User Stories aus der Liste aus, sortiert nach Priorität in absteigender Reihenfolge.
      *
-     * @param userStories die Liste der User Stories, die ausgegeben werden sollen.
+     * @param userStories Die Liste der User Stories, die ausgegeben werden sollen.
      */
     public static void dump(List<UserStory> userStories) {
         dump(userStories, null, null); // Aufruf der überladenen Methode ohne Filter
     }
 
+    /**
+     * Gibt User Stories aus, die einem bestimmten Filterkriterium entsprechen,
+     * sortiert nach Priorität in absteigender Reihenfolge.
+     *
+     * @param userStories    Die Liste der User Stories, die ausgegeben werden sollen.
+     * @param filterCriteria Das Kriterium, nach dem gefiltert werden soll (z. B. "projekt", "id", "titel", etc.).
+     * @param filterValue    Der Wert, nach dem gefiltert werden soll. Wenn `null`, wird kein Filter angewendet.
+     */
     public static void dump(List<UserStory> userStories, String filterCriteria, String filterValue) {
         if (userStories.isEmpty()) {
             System.out.println("Keine User Story gefunden!");
