@@ -20,15 +20,20 @@ public class UserStoryView {
      * @param userStories die Liste der User Stories, die ausgegeben werden sollen.
      */
     public static void dump(List<UserStory> userStories) {
+        dump(userStories, null); // Aufruf der überladenen Methode ohne Filter
+    }
+
+    public static void dump(List<UserStory> userStories, String projectFilter) {
         if (userStories.isEmpty()) {
             System.out.println("Keine User Story gefunden!");
         } else {
             System.out.printf("%-10s %-20s %-20s %-15s %-15s%n",
                     "ID", "Titel", "Akzeptanzkriterium", "Projekt", "Priorität");
 
-            // Stream-basierte Ausgabe mit Filter-Map-Reduce-Pattern
+            // Stream-basierte Ausgabe mit Filter, falls ein Projektfilter angegeben wurde
             String result = userStories.stream()
-                    .sorted(Comparator.comparingDouble(UserStory::getPriority).reversed()) // Sortiert nach Priorität (absteigend)
+                    .filter(story -> projectFilter == null || story.getProject().equalsIgnoreCase(projectFilter))
+                    .sorted(Comparator.comparingDouble(UserStory::getPriority).reversed())
                     .map(story -> String.format("%-10s %-20s %-20s %-15s %-15.2f",
                             story.getID(), story.getTitle(), story.getAcceptanceCriteria(), story.getProject(), story.getPriority()))
                     .collect(Collectors.joining("\n"));
