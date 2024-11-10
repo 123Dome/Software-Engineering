@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Contains Methode für Items im Container">
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/userStory/UserStoryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/userStory/UserStoryView.java" afterDir="false" />
-    </list>
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Kommentare" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,15 +261,7 @@
       <workItem from="1730205419576" duration="9899000" />
       <workItem from="1730407647989" duration="1899000" />
       <workItem from="1730880376824" duration="4970000" />
-      <workItem from="1731270707303" duration="5282000" />
-    </task>
-    <task id="LOCAL-00014" summary="Es kann nur eine Container Instanz erstellt werden">
-      <option name="closed" value="true" />
-      <created>1729347915340</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1729347915340</updated>
+      <workItem from="1731270707303" duration="5946000" />
     </task>
     <task id="LOCAL-00015" summary="Store Methode für PersistenceStrategyStream fertiggestellt">
       <option name="closed" value="true" />
@@ -657,7 +647,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731275788814</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Kommentare">
+      <option name="closed" value="true" />
+      <created>1731276044383</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1731276044383</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Umlet Datei" />
     <MESSAGE value="Übung 3 fertig" />
     <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
     <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
@@ -700,7 +697,8 @@
     <MESSAGE value="Überladen der dump Methode" />
     <MESSAGE value="Weitere Filter für die dump Methode" />
     <MESSAGE value="Contains Methode für Items im Container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contains Methode für Items im Container" />
+    <MESSAGE value="Kommentare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kommentare" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -142,6 +142,7 @@ public class Client {
         System.out.println("store - Speichert die User Stories in einer Datei");
         System.out.println("load - Lädt User Stories aus einer Datei");
         System.out.println("dump - Ausgabe aller User Stories, sortiert nach Priorität");
+        System.out.println("dump <filter> <wert> - Ausgabe der User Stories, gefiltert nach einem bestimmten Kriterium");
         System.out.println("exit - Beendet das Programm");
         System.out.println("help - Zeigt diese Hilfe an");
     }
