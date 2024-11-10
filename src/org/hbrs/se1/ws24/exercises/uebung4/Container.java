@@ -56,7 +56,7 @@ public class Container <E extends UserStory>{
      * @throws ContainerException wenn das Element bereits im Container existiert
      */
     public void addItem(E item) throws ContainerException {
-        if (itemList.contains(item)) {
+        if (contains(item)) {
             throw new ContainerException("Item existiert bereits!");
         }
         itemList.add(item);
@@ -125,5 +125,15 @@ public class Container <E extends UserStory>{
      */
     public List<E> getItemList() {
         return this.itemList;
+    }
+
+    public boolean contains(E item) {
+        Integer id = item.getID();
+        for(E rec : itemList){
+            if ( rec.getID() == id ) {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Überladen der dump Methode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/userStory/UserStoryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/userStory/UserStoryView.java" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Weitere Filter für die dump Methode">
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung4/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,15 +263,7 @@
       <workItem from="1730205419576" duration="9899000" />
       <workItem from="1730407647989" duration="1899000" />
       <workItem from="1730880376824" duration="4970000" />
-      <workItem from="1731270707303" duration="4636000" />
-    </task>
-    <task id="LOCAL-00011" summary="ReadMe">
-      <option name="closed" value="true" />
-      <created>1728991665195</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728991665195</updated>
+      <workItem from="1731270707303" duration="4937000" />
     </task>
     <task id="LOCAL-00012" summary="Aktivitätendiagramm">
       <option name="closed" value="true" />
@@ -659,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731274960087</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Weitere Filter für die dump Methode">
+      <option name="closed" value="true" />
+      <created>1731275388629</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1731275388629</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testklasse für Container" />
     <MESSAGE value="Methoden und Klassen ordentlich kommentiert" />
     <MESSAGE value="Umlet Datei" />
     <MESSAGE value="Übung 3 fertig" />
@@ -702,7 +699,8 @@
     <MESSAGE value="Projekt" />
     <MESSAGE value="TODO" />
     <MESSAGE value="Überladen der dump Methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Überladen der dump Methode" />
+    <MESSAGE value="Weitere Filter für die dump Methode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weitere Filter für die dump Methode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
