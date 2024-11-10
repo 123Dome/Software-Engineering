@@ -20,19 +20,31 @@ public class UserStoryView {
      * @param userStories die Liste der User Stories, die ausgegeben werden sollen.
      */
     public static void dump(List<UserStory> userStories) {
-        dump(userStories, null); // Aufruf der überladenen Methode ohne Filter
+        dump(userStories, null, null); // Aufruf der überladenen Methode ohne Filter
     }
 
-    public static void dump(List<UserStory> userStories, String projectFilter) {
+    public static void dump(List<UserStory> userStories, String filterCriteria, String filterValue) {
         if (userStories.isEmpty()) {
             System.out.println("Keine User Story gefunden!");
         } else {
             System.out.printf("%-10s %-20s %-20s %-15s %-15s%n",
                     "ID", "Titel", "Akzeptanzkriterium", "Projekt", "Priorität");
 
-            // Stream-basierte Ausgabe mit Filter, falls ein Projektfilter angegeben wurde
             String result = userStories.stream()
-                    .filter(story -> projectFilter == null || story.getProject().equalsIgnoreCase(projectFilter))
+                    .filter(story -> {
+                        if (filterCriteria != null && filterValue != null) {
+                            String value = filterValue.toLowerCase();
+                            return switch (filterCriteria.toLowerCase()) {
+                                case "projekt" -> story.getProject().equalsIgnoreCase(value);
+                                case "id" -> story.getID().toString().equals(value);
+                                case "titel" -> story.getTitle().toLowerCase().contains(value);
+                                case "akzeptanzkriterium" -> story.getAcceptanceCriteria().toLowerCase().contains(value);
+                                case "priorität" -> story.getPriority() == Double.parseDouble(value);
+                                default -> true;
+                            };
+                        }
+                        return true;
+                    })
                     .sorted(Comparator.comparingDouble(UserStory::getPriority).reversed())
                     .map(story -> String.format("%-10s %-20s %-20s %-15s %-15.2f",
                             story.getID(), story.getTitle(), story.getAcceptanceCriteria(), story.getProject(), story.getPriority()))

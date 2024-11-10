@@ -41,12 +41,17 @@ public class Client {
         while (true) {
             System.out.print("> ");
             String input = scanner.nextLine();
+            String[] parts = input.split(" ", 3);
+            String command = parts[0];
             try {
-                switch (input) {
+                switch (command) {
                     case "enter" -> enterUserStory();
                     case "store" -> container.store();
                     case "load" -> container.load();
-                    case "dump" -> UserStoryView.dump(container.getItemList());
+                    case "dump" -> {
+                        if (parts.length > 2) UserStoryView.dump(container.getItemList(), parts[1], parts[2]);
+                        else UserStoryView.dump(container.getItemList());
+                    }
                     case "exit" -> {
                         System.out.println("Goodbye!");
                         return;
