@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class UserStoryTest {
 
-    UserStory userStory = new UserStory(1, "Test Titel", "Test Akzeptanz", "Test Projekt", 4, 4, 2, 2);
+    UserStory userStory = new UserStory(2, "Test Titel", "Test Akzeptanz", "Test Projekt", 4, 4, 2, 2);
 
     @Test
     void testGetterMethods() {
-        assertEquals(1, userStory.getID());
+        assertEquals(2, userStory.getID());
         assertEquals("Test Titel", userStory.getTitle());
         assertEquals("Test Akzeptanz", userStory.getAcceptanceCriteria());
         assertEquals("Test Projekt", userStory.getProject());
