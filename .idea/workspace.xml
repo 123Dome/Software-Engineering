@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Anpassung Dateien">
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="MindMap">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2024_09_06_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Semesterprojekt" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +92,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Semesterprojekt&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/projekt&quot;,
@@ -116,6 +117,7 @@
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4\userStory" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\test\org\hbrs\se1\ws24\tests\uebung1" />
     </key>
@@ -264,14 +266,7 @@
       <workItem from="1730407647989" duration="1899000" />
       <workItem from="1730880376824" duration="4970000" />
       <workItem from="1731270707303" duration="7361000" />
-    </task>
-    <task id="LOCAL-00017" summary="Container Klasse kann mit Methode Store jetzt persistent Speichern">
-      <option name="closed" value="true" />
-      <created>1729514809485</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1729514809485</updated>
+      <workItem from="1731619844111" duration="13000" />
     </task>
     <task id="LOCAL-00018" summary="Container Klasse kann mit Methode Store jetzt persistent Speichern">
       <option name="closed" value="true" />
@@ -657,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731278022223</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="MindMap">
+      <option name="closed" value="true" />
+      <created>1731485463456</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1731485463456</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nicht 2 Threads können parallel in die Methode" />
     <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
     <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
     <MESSAGE value="Container muss nicht Serializable sein" />
@@ -712,7 +714,8 @@
     <MESSAGE value="Kommentare" />
     <MESSAGE value="Anpassung der help Methode" />
     <MESSAGE value="Anpassung Dateien" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anpassung Dateien" />
+    <MESSAGE value="MindMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="MindMap" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
