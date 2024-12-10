@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 6.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +44,12 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aldaGit/codesSEws24.git",
-    "accountId": "bb9bbe0a-679d-4fb1-a86f-d6bda7f4f788"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aldaGit/codesSEws24.git&quot;,
+    &quot;accountId&quot;: &quot;bb9bbe0a-679d-4fb1-a86f-d6bda7f4f788&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/Container.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung3/persistence/PersistenceStrategyStream.java" root0="SKIP_INSPECTION" />
@@ -71,42 +69,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.testDeleteMember.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.testPersistenceStrategyIsNull.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContainerTest.testRoundTrip.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GermanTranslatorTest.testLessThanValidNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GermanTranslatorTest.testValidNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserStoryTest.testGetterMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/projekt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ContainerTest.executor": "Run",
+    "JUnit.ContainerTest.testDeleteMember.executor": "Run",
+    "JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented.executor": "Run",
+    "JUnit.ContainerTest.testPersistenceStrategyIsNull.executor": "Run",
+    "JUnit.ContainerTest.testRoundTrip.executor": "Run",
+    "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
+    "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
+    "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
+    "JUnit.UserStoryTest.testGetterMethods.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/projekt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
@@ -119,6 +118,7 @@
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung6" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung5" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4\userStory" />
@@ -229,8 +229,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -272,14 +272,7 @@
       <workItem from="1731619844111" duration="13000" />
       <workItem from="1732056440975" duration="343000" />
       <workItem from="1732662252210" duration="306000" />
-    </task>
-    <task id="LOCAL-00019" summary="Weiterer Exception Type hinzugefügt, falls ein Objekt falsch ausgelesen wird">
-      <option name="closed" value="true" />
-      <created>1729515670887</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1729515670887</updated>
+      <workItem from="1733262719483" duration="77000" />
     </task>
     <task id="LOCAL-00020" summary="Methode load in PersistenceStrategyStream fertiggestellt">
       <option name="closed" value="true" />
@@ -665,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732056695571</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Übung 6.2">
+      <option name="closed" value="true" />
+      <created>1733262783805</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1733262783805</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +696,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Damit nicht 2 Threads ein Container Objekt parallel erzeugen können (Nebenläufigkeit)" />
     <MESSAGE value="Container muss nicht Serializable sein" />
     <MESSAGE value="Änderung damit es allgemeiner ist" />
     <MESSAGE value="Container Klasse generisch gemacht" />
@@ -720,7 +720,8 @@
     <MESSAGE value="Anpassung Dateien" />
     <MESSAGE value="MindMap" />
     <MESSAGE value="Übung 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 5" />
+    <MESSAGE value="Übung 6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 6.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
