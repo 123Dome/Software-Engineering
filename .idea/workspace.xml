@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 6.2" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 7">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/Klassendiagramm.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/Layer.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/MVCPackage.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ReiseAnbieterAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,43 +75,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.ContainerTest.executor": "Run",
-    "JUnit.ContainerTest.testDeleteMember.executor": "Run",
-    "JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented.executor": "Run",
-    "JUnit.ContainerTest.testPersistenceStrategyIsNull.executor": "Run",
-    "JUnit.ContainerTest.testRoundTrip.executor": "Run",
-    "JUnit.GermanTranslatorTest.testLessThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor": "Run",
-    "JUnit.GermanTranslatorTest.testValidNumber.executor": "Run",
-    "JUnit.UserStoryTest.testGetterMethods.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/projekt",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testDeleteMember.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testPersistenceStrategyIsNotImplemented.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testPersistenceStrategyIsNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContainerTest.testRoundTrip.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testLessThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testMoreThanValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GermanTranslatorTest.testValidNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserStoryTest.testGetterMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dome/IdeaProjects/SoftwareEngineering/src/org/hbrs/se1/ws24/exercises/projekt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTFeaturesSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws24.exercises.uebung2" />
@@ -118,11 +124,11 @@
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung7" />
       <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung6" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung5" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4\userStory" />
-      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\test\org\hbrs\se1\ws24\tests\uebung1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -273,14 +279,9 @@
       <workItem from="1732056440975" duration="343000" />
       <workItem from="1732662252210" duration="306000" />
       <workItem from="1733262719483" duration="77000" />
-    </task>
-    <task id="LOCAL-00020" summary="Methode load in PersistenceStrategyStream fertiggestellt">
-      <option name="closed" value="true" />
-      <created>1729515759937</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1729515759937</updated>
+      <workItem from="1733869662125" duration="199000" />
+      <workItem from="1734526114787" duration="104000" />
+      <workItem from="1734723642021" duration="301000" />
     </task>
     <task id="LOCAL-00021" summary="Methode load in Container Klasse fertiggestellt">
       <option name="closed" value="true" />
@@ -666,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733262783805</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Übung 7">
+      <option name="closed" value="true" />
+      <created>1733869844917</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1733869844917</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +705,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Container muss nicht Serializable sein" />
     <MESSAGE value="Änderung damit es allgemeiner ist" />
     <MESSAGE value="Container Klasse generisch gemacht" />
     <MESSAGE value="Ausgabe auf Konsole für User Stories" />
@@ -721,7 +729,8 @@
     <MESSAGE value="MindMap" />
     <MESSAGE value="Übung 5" />
     <MESSAGE value="Übung 6.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 6.2" />
+    <MESSAGE value="Übung 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
