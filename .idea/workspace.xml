@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 8">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="11b931b2-f8a2-4546-af99-1df1f0f211cc" name="Changes" comment="Übung 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ReiseAnbieterAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws24/exercises/uebung8/ReiseAnbieterAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +121,11 @@
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung9" />
       <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung8" />
       <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung7" />
       <recent name="C:\Users\Dome\IdeaProjects\Software Engineering 1\src\org\hbrs\se1\ws24\exercises\uebung6" />
       <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung5" />
-      <recent name="C:\Users\Dome\IdeaProjects\SoftwareEngineering\src\org\hbrs\se1\ws24\exercises\uebung4" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -283,14 +283,8 @@
       <workItem from="1736503847040" duration="120000" />
       <workItem from="1736504243262" duration="48000" />
       <workItem from="1736544605896" duration="84000" />
-    </task>
-    <task id="LOCAL-00022" summary="ReadMe">
-      <option name="closed" value="true" />
-      <created>1729516217268</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1729516217268</updated>
+      <workItem from="1736782130306" duration="103000" />
+      <workItem from="1736894844484" duration="165000" />
     </task>
     <task id="LOCAL-00023" summary="MemberView Klasse mit dump Methode zur Ausgabe der Liste">
       <option name="closed" value="true" />
@@ -676,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734724098853</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Übung 9">
+      <option name="closed" value="true" />
+      <created>1736782221451</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1736782221452</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Container Klasse generisch gemacht" />
     <MESSAGE value="Ausgabe auf Konsole für User Stories" />
     <MESSAGE value="Ausgabe auf Konsole für User Stories mit Filter-Map-Reduce-Pattern" />
     <MESSAGE value="User Story Klasse mit toString" />
@@ -731,7 +732,8 @@
     <MESSAGE value="Übung 6.2" />
     <MESSAGE value="Übung 7" />
     <MESSAGE value="Übung 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 8" />
+    <MESSAGE value="Übung 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
